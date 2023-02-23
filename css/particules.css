@@ -1,0 +1,30 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section>img{
+    position: absolute;
+    width: 145px;
+    right: 749px;
+    top: 34px;
+    user-select: none;
+}
+section>h1{
+    font-family: 'Lemon milk', sans-serif;
+    font-size: 3em;
+    margin-top: 35px;
+}
+#bgd{
+    display: flex;
+    background-image: url("../img/logo_maison.png");
+    width: 532px;
+    height: 659px;
+    background-repeat: no-repeat;
+}
+#bg{
+    background: black;
+    z-index: -2;
+    width: 532px;
+    height: 659px;
+}
