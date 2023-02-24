@@ -17,7 +17,7 @@ section>h1{
 }
 #bgd{
     display: flex;
-    background-image: url("../../img/logo_maison.png");
+    background-image: url("../../img/dark_logo_maison.png");
     width: 532px;
     height: 659px;
     background-repeat: no-repeat;
