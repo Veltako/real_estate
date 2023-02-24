@@ -20,6 +20,7 @@ nav {
     animation: highlight 1s infinite alternate;
     box-shadow: 1px 1px 5px;
     position: relative;
+    z-index: 2;
 }
 nav>.liste>ul {
     display: flex;
