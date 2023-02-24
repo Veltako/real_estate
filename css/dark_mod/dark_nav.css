@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     border-bottom: 4px solid transparent;
     background-image:
-            linear-gradient(black, black),
+            linear-gradient(red,red),
             linear-gradient(180deg, rgb(0, 255, 238), rgb(0, 213, 255) 50%, rgb(0, 89, 255));
     background-repeat: no-repeat;
     background-size: 100% 100%, 100% 200%;
