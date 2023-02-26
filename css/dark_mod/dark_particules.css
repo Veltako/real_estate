@@ -28,7 +28,8 @@ section>h1{
     background-repeat: no-repeat;
 }
 #bg{
+    background: black;
     z-index: -2;
-    width: 600px;
-    height: 750px;
+    width: 500px;
+    height: 646px;
 }
