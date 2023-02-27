@@ -31,3 +31,185 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px;
     border: 1px solid black;
 }
+header{
+    height: 25px;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 5px;
+}
+header>div>h1{
+    font-size: 1em;
+    padding-left: 10px;
+    color: white;
+}
+header>div>a{
+    padding-right: 10px;
+}
+header>div>a>img{
+    width: 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(278deg) brightness(104%) contrast(102%);
+}
+.top-article{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.top-article>img{
+    width: 57%;
+    filter: brightness(0) saturate(100%) invert(49%) sepia(61%) saturate(3091%) hue-rotate(175deg) brightness(99%) contrast(110%);
+}
+.top-article>p{
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 1.1em;
+}
+.house{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.house>img{
+    width: 70%;
+}
+.bottom-article{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom-article>img{
+    width: 98%;
+    filter: brightness(0) saturate(100%) invert(49%) sepia(61%) saturate(3091%) hue-rotate(175deg) brightness(99%) contrast(110%);
+}
+.bottom-article>p{
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 1.1em;
+    padding-left: 45px;
+}
+.text-article{
+    margin-top: 15px;
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 1.4em;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+nav {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: wheat;
+    border-bottom: 4px solid transparent;
+    background-image:
+            linear-gradient(wheat, wheat),
+            linear-gradient(180deg, rgb(0, 255, 238), rgb(0, 213, 255) 50%, rgb(0, 89, 255));
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 200%;
+    background-position: 0 0, 0 100%;
+    background-origin: padding-box, border-box;
+    animation: highlight 1s infinite alternate;
+    box-shadow: 1px 1px 5px;
+    position: relative;
+}
+@keyframes highlight {
+    100% {
+        background-position: 0 0, 0 0;
+    }
+}
+/*border-bottom: 2px solid transparent;
+background-image:
+    linear-gradient(white, white),
+    linear-gradient(180deg, rgb(0, 255, 238), rgb(0, 213, 255) 50%, rgb(0, 89, 255));
+background-repeat: no-repeat;
+background-size: 100% 100%, 100% 200%;
+background-position: 0 0, 0 100%;
+background-origin: padding-box, border-box;
+animation: highlight 1s infinite alternate;
+@keyframes highlight {
+100% {
+    background-position: 0 0, 0 0;
+}
+}*/
+nav>.liste {
+
+}
+nav>.liste>ul {
+    display: flex;
+    list-style-type: none;
+}
+nav>.liste>ul>li {
+    padding-right: 25px;
+}
+nav>.liste>ul>li>a {
+    font-family: 'Lemon milk light', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 100;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+nav>.liste>ul>li>a:hover {
+    border-bottom: 2px solid var(--bleu);
+}
+.active{
+    border-bottom: 2px solid var(--bleu);
+    margin-left: 25px;
+}
+nav>.picture>.fr>img {
+    width: 40px;
+    margin-right: 25px;
+    display: none;
+}
+nav>.picture>.en>img {
+    /*    display: none;*/
+    margin-right: 25px;
+    width: 40px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section>img{
+    position: absolute;
+    width: 145px;
+    right: 749px;
+    top: 34px;
+    user-select: none;
+}
+section>h1{
+    font-family: 'Lemon milk', sans-serif;
+    font-size: 3em;
+    margin-top: 35px;
+}
+#bgd{
+    display: flex;
+    background-image: url("../../img/logo_maison.png");
+    width: 532px;
+    height: 659px;
+    background-repeat: no-repeat;
+}
+#bg{
+    background: black;
+    z-index: -2;
+    width: 532px;
+    height: 659px;
+}
