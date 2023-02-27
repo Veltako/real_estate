@@ -147,6 +147,11 @@ animation: highlight 1s infinite alternate;
     background-position: 0 0, 0 0;
 }
 }*/
+@media screen and (max-width: 760px) {
+    .liste{
+        display: none;
+    }
+}
 nav>.liste {
 
 }

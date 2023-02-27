@@ -1,7 +1,8 @@
 main{
     padding-top: 100px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: black;
 }
 .container_agent {
@@ -12,7 +13,7 @@ main{
     width: 900px;
     border-radius: 5px;
     background: #343434;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .agent_img{
     background: url("../../img/Mme  GERALDINE DARMANINE.png");
@@ -45,4 +46,59 @@ main{
     background: #2c2c2c;
     color: white;
     font-size: 2em;
+}
+.container_card{
+    background: white;
+    height: 600px;
+    width: 90%;
+}
+.aside_card>img{
+    width: 40%;
+}
+
+.carousel {
+    position: relative;
+    width: 45%;
+    height: 600px;
+    overflow: hidden;
+    background-color: #cdcdcd;
+}
+.carousel .carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    border: 1px solid #2e2e2e;
+    top: 0;
+    left: 100%;
+}
+.carousel .carousel-item.active {
+    left: 0;
+    transition: all 0.3s ease-out;
+}
+.carousel .carousel-item div {
+    height: 100%;
+}
+.carousel .carousel-item .red {
+    background-image: url("../../img/Mod-on-the-greens_Front-Dusk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel .carousel-item .green {
+    background-image: url("../../img/Mod-on-the-greens_Kitchen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel .carousel-item .yellow {
+    background-image: url("../../img/Mod-on-the-greens_Master-Bath.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel .carousel-item .violet {
+    background-image: url("../../img/Mod-on-the-greens_Master-Bed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
