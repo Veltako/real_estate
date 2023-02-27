@@ -1,4 +1,4 @@
-main{
+article{
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -26,19 +26,20 @@ main{
 }
 .container_agent>h1, h2, p{
     color: white;
-    font-family: 'Lemon milk light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .container_agent>h1{
     margin-top: 15px;
     margin-bottom: 20px;
-    font-size: 1.6em;
+    font-size: 2.5em;
 }
 .container_agent>h2{
     margin-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 .container_agent>p{
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-bottom: 55px;
 }
 #btn{
@@ -47,15 +48,39 @@ main{
     color: white;
     font-size: 2em;
 }
+main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 .container_card{
-    background: white;
-    height: 600px;
-    width: 90%;
-}
-.aside_card>img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 40%;
+    background: #001723;
 }
-
+.container_card>h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+.container_card>h2{
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 1.5em;
+}
+.container_card>p{
+    margin-bottom: 15px;
+    font-family: 'Lemon milk light', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
 .carousel {
     position: relative;
     width: 45%;
@@ -79,25 +104,21 @@ main{
     height: 100%;
 }
 .carousel .carousel-item .red {
-    background-image: url("../../img/Mod-on-the-greens_Front-Dusk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .carousel .carousel-item .green {
-    background-image: url("../../img/Mod-on-the-greens_Kitchen.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .carousel .carousel-item .yellow {
-    background-image: url("../../img/Mod-on-the-greens_Master-Bath.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .carousel .carousel-item .violet {
-    background-image: url("../../img/Mod-on-the-greens_Master-Bed.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
