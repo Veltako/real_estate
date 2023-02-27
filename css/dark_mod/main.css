@@ -1,8 +1,49 @@
 main{
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     background: black;
 }
-.container-agent{
-
+.container_agent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 900px;
+    border-radius: 5px;
+    background: #343434;
+    margin-bottom: 50px;
 }
+.agent_img{
+    background: url("../../img/Mme  GERALDINE DARMANINE.png");
+    background-size: 70%;
+    width: 30%;
+    height: 40%;
+    background-position: center 10%;
+    margin-top: 15px;
+    clip-path: circle(40%);
+}
+.container_agent>h1, h2, p{
+    color: white;
+    font-family: 'Lemon milk light', sans-serif;
+}
+.container_agent>h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+.container_agent>h2{
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.container_agent>p{
+    font-size: 1.2em;
+    margin-bottom: 55px;
+}
+#btn{
+    padding: 15px;
+    background: #2c2c2c;
+    color: white;
+    font-size: 2em;
+}
+
