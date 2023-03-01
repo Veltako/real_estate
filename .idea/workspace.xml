@@ -6,17 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="94274241-0c5f-4c4b-a8a6-46dfd2fded65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/light_mod/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/light_mod/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mention légale.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mention légale.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/merignies.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/merignies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/villa-moderne-dans-un-lotissement-exclusif-à-mijas (1).jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/villa-moderne-dans-un-lotissement-exclusif-à-mijas (2).jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/villa-moderne-dans-un-lotissement-exclusif-à-mijas (3).jfif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +57,7 @@
       <workItem from="1677657491427" duration="4823000" />
       <workItem from="1677664247245" duration="303000" />
       <workItem from="1677664561561" duration="11486000" />
-      <workItem from="1677676720905" duration="2703000" />
+      <workItem from="1677676720905" duration="4120000" />
     </task>
     <servers />
   </component>
