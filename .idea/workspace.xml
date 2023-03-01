@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="94274241-0c5f-4c4b-a8a6-46dfd2fded65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dark_mod/dark_body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dark_mod/dark_body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dark_mod/dark_cadrillage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/light_mod/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/light_mod/body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/mention légale.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mention légale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/merignies.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/merignies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -45,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677587213219</updated>
       <workItem from="1677587215089" duration="680000" />
-      <workItem from="1677657491427" duration="772000" />
+      <workItem from="1677657491427" duration="4823000" />
+      <workItem from="1677664247245" duration="47000" />
     </task>
     <servers />
   </component>

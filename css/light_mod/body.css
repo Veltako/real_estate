@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    user-select: none;
 }
 :root{
     --bleu: rgb(0, 162, 255);
@@ -224,4 +223,44 @@ section>h1{
     section>h1{
         font-size: 2em;
     }
+}
+
+.mentions{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mentions>ul{
+    list-style-type: none;
+    margin-top: 50px;
+}
+.mentions>h1{
+    margin-top: 50px;
+    font-family: 'Lemon milk', sans-serif;
+    font-size: 2em;
+    color: #000042;
+}
+.mentions>ul>h2{
+    font-family: 'Lemon milk', sans-serif;
+    margin-bottom: 10px;
+    color: #000042;
+}
+.mentions>ul>h3 ,a, a>h3{
+    font-family: 'Lemon milk light', sans-serif;
+    text-decoration: none;
+    color: #000042;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.mentions>ul>li>span>a{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+.mentions>ul>li{
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
 }

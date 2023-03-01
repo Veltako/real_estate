@@ -35,3 +35,60 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px;
     border: 1px solid white;
 }
+#grid {
+    background-color: transparent;
+    background-image:
+        /* ligne vertical */
+            linear-gradient(0deg, transparent 24%,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, .1),
+            transparent 27%, transparent 74%,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, .1) 80%,
+            transparent 7%, transparent),
+
+                /* ligne horizontal */
+            linear-gradient(90deg, transparent 24%,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, .1),
+            transparent 27%, transparent 74%,
+            rgba(255, 255, 255, .0),
+            rgba(255, 255, 255, .1),
+            transparent 77%);
+    /*    height: 100%;*/
+    background-size: 200px 200px;
+    animation: dyna 1.5s linear infinite;
+    -webkit-animation: dyna 1.5s alternate infinite;
+}
+@keyframes dyna {
+    0%{
+        transform: perspective(400px) rotateX(0deg) translateY(0%) translateZ(80px);
+    }
+    100%{
+        transform: perspective(400px) rotateX(0deg) translateY(3%) translateZ(80px);
+    }
+    /*   100%{
+        transform: perspective(400px) rotateX(2deg) translateY(1%) translateZ(80px);
+      }
+      0% {
+        transform: perspective(400px) rotateX(2deg) translateY(1%) translateZ(80px);
+      }
+      12.5% {
+        transform: perspective(400px) rotateX(2deg) translateY(2%) translateZ(80px);
+      }
+      25%{
+        transform: perspective(400px) rotateX(2deg) translateY(3%) translateZ(80px);
+      }
+      50% {
+        transform: perspective(400px) rotateX(2deg) translateY(4%) translateZ(80px);
+      }
+      62.5% {
+        transform: perspective(400px) rotateX(2deg) translateY(3%) translateZ(80px);
+      }
+      75% {
+        transform: perspective(400px) rotateX(2deg) translateY(2%) translateZ(80px);
+      }
+      100% {
+        transform: perspective(400px) rotateX(2deg) translateY(1%) translateZ(80px);
+      } */
+}
