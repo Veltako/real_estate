@@ -1,24 +1,35 @@
-window.onload = function(){
-    var slides = document.getElementsByClassName('carousel-item'),
-        addActive = function(slide) {slide.classList.add('active')},
-        removeActive = function(slide) {slide.classList.remove('active')};
-    addActive(slides[0]);
+let numero = 1;
+const duree = 1000;
+const nombreSlides = 4;
 
-    setInterval(function (){
-        for (var i = 0; i < slides.length; i++){
-            if (i + 1 == slides.length) {
-                addActive(slides[0]);
-                slides[0].style.zIndex = 100;
-                setTimeout(removeActive, 350, slides[i]); //Doesn't be worked in IE-9
-                break;
-            }
-            if (slides[i].classList.contains('active')) {
-                slides[i].removeAttribute('style');
-                setTimeout(removeActive, 350, slides[i]); //Doesn't be worked in IE-9
-                addActive(slides[i + 1]);
-                break;
-            }
-        }
-    }, 4000);
-}
-  
+// Si on clique sur la flèche "suivant"
+$("#suivant").click(function () {
+
+    // On fait disparaitre le slide actuel
+    $("#slide" + numero).fadeOut(duree);
+
+    // On fait apparaitre le slide suivant (numero + 1)
+    numero = numero + 1;
+    // Si le numéro est supérieur au nombre de slides alors le numéro est égal à 1
+    if (numero > nombreSlides) {
+        numero = 1;
+    }
+    $("#slide" + numero).fadeIn(duree);
+
+});
+
+// Si on clique sur la flèche "precedent"
+$("#precedent").click(function () {
+
+    // On fait disparaitre le slide actuel
+    $("#slide" + numero).fadeOut(duree);
+
+    // On fait apparaitre le slide précédent (numero - 1)
+    numero = numero - 1;
+    // Si le numéro est inférieur à 0 alors le numéro est égal au nombre de slide
+    if (numero < 1) {
+        numero = nombreSlides;
+    }
+    $("#slide" + numero).fadeIn(duree);
+
+});
