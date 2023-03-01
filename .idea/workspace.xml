@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94274241-0c5f-4c4b-a8a6-46dfd2fded65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/real_estate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/real_estate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dark_mod/dark_body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dark_mod/dark_body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dark_mod/dark_nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dark_mod/dark_particules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dark_mod/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/light_mod/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/light_mod/body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/mention légale.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mention légale.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/merignies.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/merignies.html" afterDir="false" />
@@ -56,7 +54,7 @@
       <workItem from="1677587215089" duration="680000" />
       <workItem from="1677657491427" duration="4823000" />
       <workItem from="1677664247245" duration="303000" />
-      <workItem from="1677664561561" duration="2147000" />
+      <workItem from="1677664561561" duration="11486000" />
     </task>
     <servers />
   </component>
